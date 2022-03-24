@@ -1,4 +1,4 @@
-class book
+class book1
 {
     // The fields.
     private String author;
@@ -12,7 +12,7 @@ class book
      * Set the author and title fields when this object
      * is constructed.
      */
-    public book(String bookAuthor, String bookTitle, int bookPages)
+    public book1(String bookAuthor, String bookTitle, int bookPages)
     {
         author = bookAuthor;
         title = bookTitle;

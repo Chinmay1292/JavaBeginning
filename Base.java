@@ -31,5 +31,8 @@ class TestBinding
         base.f();
         base.g();
 
+        derived = (Derived)base;
+        derived.f();
+
     }
 }
